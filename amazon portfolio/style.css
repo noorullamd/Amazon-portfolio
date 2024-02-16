@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;  
+}
+.border{
+    border:1.5px solid transparent
+}
+.border:hover{
+    border:1.5px solid wheat
+}
+/*box 1*/
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+   
+    
+    
+
+}
+.nav-logo{
+    height:55px;
+    width: 120px;
+    background-image: url(amazon.webp);
+    background-size: cover;
+    
+    
+}
+/*box 2*/
+.nav-address{
+    height: 50px;
+    width:90px;
+    padding-top: 15px;
+    margin-left: 20px;
+
+}
+.add2{
+    display: flex;
+
+}
+.add1{
+    padding-left: 13px;
+}
+.sel1{
+    font-size: 0.9rem;
+    color: #cccccc;
+    padding-left: 5px;
+}
+.sel2{
+    font-size: 1.3rem;
+    padding-bottom: 3px;
+}
+/*box 3*/
+select{
+    height: 50px;
+    width:60px;
+    border:none;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 20px;
+
+}
+input{
+    height:48px;
+    width:600px;
+    border:none;
+    
+}
+.inner3{
+    height: 50px;
+    width: 70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none
+    
+}
+/*box 4 and box 5 */
+.account{
+    height: 50px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    
+
+}
+.acc_1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.acc1{
+    font-size: medium;
+}
+.acc2{
+    font-weight: 600;
+}
+/*box 6 */
+.cart{
+    display: flex;
+    margin-left: 20px;
+
+}
+.cart I{
+    font-size: 35px;
+}
+.acc3{
+    font-weight: 700;
+    
+}
+/*navbar2*/
+.navbar_2{
+    height: 39px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    
+}
+/*box1*/
+.box1{
+    height:39px;
+    display: flex;
+    align-items: center;
+    
+}
+.box1 I{
+    font-size: 25px;
+}
+.sb1{
+    padding-top: 20px;
+}
+
+
+/*box2*/
+.box2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+.sb2{
+    margin-left:15px;
+    font-size: small;
+}
+/*main page*/
+.mainpage{
+      height: 350px;
+      background-image: url(img456.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      
+}
+.main1{
+    height:40px ;
+    width: 80%;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px; 
+}
+/* boxes groups*/
+.box_s{
+    background-color: rgb(178, 240, 216);
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box_1{
+    height:380px;
+    width: 280px;
+    border:1.5px solid black
+    padding-left;
+    padding-top: 15px;
+   
+   
+}
+.box_1 P{
+    font-weight: 600;
+}
+.img_1{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.img_1{
+    height: 300px;
+    width:260px ;
+    background-image: url(box1.jpg);
+    background-size: cover;
+}
+/*box2*/
+
+.img_2{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.img_2{
+    height: 300px;
+    width:260px ;
+    background-image: url(box2.jpg);
+    background-size: cover;
+}
+/*box3*/
+
+.img_3{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.img_3{
+    height: 300px;
+    width:260px ;
+    background-image: url(box3.jpg);
+    background-size: cover;
+}
+/*box4*/
+
+.img_4{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.img_4{
+    height: 300px;
+    width:260px ;
+    background-image: url(box4.jpg);
+    background-size: cover;
+}
+/*box5*/
+
+.img_5{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.img_5{
+    height: 300px;
+    width:260px ;
+    background-image: url(box5.jpg);
+    background-size: cover;
+}
+/*box6*/
+
+.img_6{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;}
+.img_6{
+    height: 300px;
+    width:260px ;
+    background-image: url(box6.jpg);
+    background-size: cover;}
+/*box2*/
+.img_7{  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;}
+.img_7{
+    height: 300px;
+    width:260px ;
+    background-image: url(box7.jpg);
+    background-size: cover;}
+/*box2*/
+.img_8{   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;}
+.img_8{
+    height: 300px;
+    width:260px ;
+    background-image: url(box8.jpg);
+    background-size: cover;}
+/*footers*/
+/*foot1*/
+.foot_main{
+    height: 126px;  
+    border:1.5px solid lightblue;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.foot_1 P{
+    padding-left: 30px;}
+.para{
+    margin-left: 40px;
+    font-size: small;}
+button{
+    height:30px;
+    width:300px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    border:none}
+/*foot2*/
+.footmain_2{
+    height: 49px;
+    width: 100%;
+    background-color: #37475a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;}
+.foot_2{
+    font-size: 0.9rem;}
+/*foot3*/
+.footmain_3{
+    height: 300px;
+    background-color: #333f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;}
+/*foot4*/
+.footmain_4{
+    height:50px;
+    width:100%;
+    background-color: #333f3d;
+    border-width: 1px;
+    border-top-style: groove;
+    background-image: url("amazon.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;}
+.logos{
+    height: 50px;
+    width: 80px;
+    background-image: url("amazon.webp");
+    background-size: cover;  }
+/*foot5*/
+.footmain_5{
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: small;
+    padding-top: 60px;}
+.pages{
+    display: flex;
+    justify-content: center;   }
+.copyright{
+    display: flex;
+    justify-content: center; }
+
+
+
+
+
+
+
+
